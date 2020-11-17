@@ -1,13 +1,3 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * Generated with the TypeScript template
- * https://github.com/react-native-community/react-native-template-typescript
- *
- * @format
- */
-
 import React, { useState } from 'react';
 import { View, Button, TextInput, StyleSheet } from 'react-native';
 import { NavigationContainer, useNavigation } from '@react-navigation/native';
@@ -47,7 +37,7 @@ function DetailsScreen(props: any) {
 
 const Stack = createStackNavigator();
 
-function App() {
+function Demo1() {
   return (
     <NavigationContainer>
       <Stack.Navigator initialRouteName="Home">
@@ -76,5 +66,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default App;
-
+export default Demo1;
